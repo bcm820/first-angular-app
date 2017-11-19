@@ -3,17 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { TasksComponent } from './tasks/tasks.component';
-import { NotesComponent } from './notes/notes.component';
-import { TimeComponent } from './time/time.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
+import { ThirdComponent } from './third/third.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TasksComponent,
-    NotesComponent,
-    TimeComponent
+    FirstComponent,
+    SecondComponent,
+    ThirdComponent
   ],
   imports: [
     BrowserModule
