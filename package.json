@@ -1,7 +1,13 @@
 {
   "name": "first-angular-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "My first Angular app",
+  "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/bcmendoza/first-angular-app",
+    "type": "git"},
+  "author": "Brian",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
