@@ -1,7 +1,7 @@
 <div [class.green]='true'>
   
   <app-first></app-first>
-  <app-second></app-second>
-  <app-third></app-third>
+  <app-second [today]="today" (updateDate)="updateToday()"></app-second>
+  <app-third [today]="today"></app-third>
 
 </div>

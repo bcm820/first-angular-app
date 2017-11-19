@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-second',
@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondComponent implements OnInit {
   title = 'Date Formats';
-  today = new Date();
+  @Input() today;
+  @Output() updateDate = new EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
+  }
+  
+  update(){
+    this.updateDate.emit();
   }
 
 }

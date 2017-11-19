@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-third',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThirdComponent implements OnInit {
   title = 'Time & DateTime Formats';
-  today = new Date();
+  @Input() today;
 
   constructor() { }
 
