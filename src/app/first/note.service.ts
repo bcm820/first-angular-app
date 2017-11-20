@@ -9,6 +9,7 @@ export class NoteService {
     {title: 'third note'}
   ];
 
-  constructor() { }
+  constructor() {
+  }
 
 }
