@@ -9,4 +9,8 @@
   <li>Another format: {{ value | currency:'CNY' }}</li>
 </ul>
 
+{{notes | json}}
+
+<ul><li *ngFor="let note of notes">{{ note.title }}</li></ul>
+
 </div>
